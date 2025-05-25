@@ -212,7 +212,7 @@ def plot_mission(geofence,inner_poly,waypoints):
     plt.axis('equal')
     plt.show()
 
-def upload_mission(vehicle, waypoints, altitude=20):
+def upload_mission(vehicle, waypoints, altitude=15):
     """Upload mission to vehicle"""
     cmds = vehicle.commands
     cmds.clear()
